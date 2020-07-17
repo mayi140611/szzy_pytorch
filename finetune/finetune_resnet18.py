@@ -5,6 +5,7 @@
 # @date       : 2019-11-05
 # @brief      : 模型finetune方法
 """
+from transformers import Trainer
 import os
 import numpy as np
 import torch
